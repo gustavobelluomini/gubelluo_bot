@@ -29,18 +29,18 @@ Edited by @gubelluomini
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-Have a look at the following for an idea of some of \
-the things I can help you with.
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
+E ai! Meu nome é *{}*.
+Dê uma olhada para que você possa ter uma idéia \
+das coisas que eu posso te ajudar.
+*Main* Comandos disponíveis:
+ - /start: Inícia o bot
+ - /help: Te envia um PM com essa mensagem.
+ - /help <module name>: Te envia PM com informações sobre o módulo.
  - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+   - por PM: irá te enviar suas configurações para todos os módulos.
+   - in a group: irá te redirecionar para o PM, com todas as suas configurações.
 {}
-And the following:
+E o seguinte:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
