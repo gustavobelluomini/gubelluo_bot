@@ -18,10 +18,10 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a group management bot with some fun extras [;)]
+Olá {}, Meu nome é {}! 
+Eu sou um bot de gerenciamento de grupo com algumas funções extras [;)]
 
-You can find the list of available commands with /help.
+Você pode encontrar uma lista com o comando /help.
 
 [Kigyō's Repo](https://github.com/Dank-del/EnterpriseALRobot) 
 
@@ -229,7 +229,7 @@ def get_help(bot: Bot, update: Update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
+        update.effective_message.reply_text("Contate-me por PM para uma lista de comandos.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",
                                                                        url="t.me/{}?start=help".format(
