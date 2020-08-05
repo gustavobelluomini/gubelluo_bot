@@ -230,7 +230,7 @@ def makepack_internal(msg, user, png_sticker, emoji, bot, packname, packnum):
 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
-STEAL_HANDLER = DisableAbleCommandHandler("steal", steal, pass_args=True, admin_ok=False)
+STEAL_HANDLER = DisableAbleCommandHandler("kang", kang, pass_args=True, admin_ok=False)
 
 dispatcher.add_handler(STICKERID_HANDLER)
 dispatcher.add_handler(GETSTICKER_HANDLER)
