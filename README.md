@@ -1,4 +1,4 @@
-![Enterprise](https://i.imgur.com/IYqzviU.jpg)
+![Enterprise]()
 # Kigyō bot
 
 
