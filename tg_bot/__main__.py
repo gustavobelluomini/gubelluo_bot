@@ -44,7 +44,7 @@ E o seguinte:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
-KIGYO_IMG = "https://telegra.ph/file/e5100e06c03767af80023.jpg"
+KIGYO_IMG = "https://ibb.co/2YnLQyW"
 
 DONATE_STRING = """I'm free for everyone!! """
 
